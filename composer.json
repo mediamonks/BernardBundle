@@ -1,6 +1,6 @@
 {
     "name"        : "bernard/bernard-bundle",
-    "description" : "Integrates Bernard into a Symfony2 application.",
+    "description" : "Integrates Bernard into a Symfony3 application.",
     "type"        : "symfony-bundle",
     "homepage"    : "http://bernard.readthedocs.org/",
     "license"     : "MIT",
@@ -13,8 +13,8 @@
     },
 
     "require" : {
-        "php": "^5.6|^7.0",
-        "bernard/bernard": "1.0.0-alpha9",
+        "php": "^7.0",
+        "bernard/bernard": "dev-master",
         "symfony/framework-bundle": "^2.8|^3.2|^4.0"
     },
 
